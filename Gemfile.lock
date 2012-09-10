@@ -1,3 +1,11 @@
+GIT
+  remote: git://github.com/Dwolla/dwolla-ruby.git
+  revision: 4589ea0f98d24a1916da687b3eb8b0f5e953b073
+  specs:
+    dwolla (1.0.0)
+      faraday (= 0.7.6)
+      multi_json (= 1.3.6)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -47,9 +55,6 @@ GEM
     debugger-linecache (1.1.2)
       debugger-ruby_core_source (>= 1.1.1)
     debugger-ruby_core_source (1.1.3)
-    dwolla (0.0.15)
-      faraday (= 0.7.6)
-      multi_json (= 1.3.6)
     erubis (2.7.0)
     execjs (1.4.0)
       multi_json (~> 1.0)
@@ -139,7 +144,7 @@ PLATFORMS
 DEPENDENCIES
   coffee-rails (~> 3.2.1)
   debugger
-  dwolla
+  dwolla!
   growl
   guard-test
   jquery-rails

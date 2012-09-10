@@ -1,5 +1,6 @@
 Payup::Application.routes.draw do
   root :to => 'home#index'
+  match 'dwolla_return' => 'home#dwolla_return'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

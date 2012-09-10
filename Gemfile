@@ -8,11 +8,14 @@ gem 'rails', '3.2.8'
 gem 'pg'
 
 gem 'json'
-gem 'dwolla'
+gem 'dwolla', :git => 'git://github.com/Dwolla/dwolla-ruby.git'
 gem 'debugger'
-gem 'vcr'
-gem 'webmock'
 gem 'ruby-prof'
+
+group :test do
+  gem 'vcr'
+  gem 'webmock'
+end
 
 group :development do
   gem 'rb-fsevent', '~> 0.9.1'
